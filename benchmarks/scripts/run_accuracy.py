@@ -80,9 +80,9 @@ EXPECTED_VALUE = {
     "Qwen/Qwen2.5-VL-7B-Instruct": {"mmmu_val": 0.51},
 }
 PARALLEL_MODE = {
-    "Qwen/Qwen3-8B-Base": "TP",
-    "Qwen/Qwen2.5-VL-7B-Instruct": "TP",
-    "Qwen/Qwen3-30B-A3B": "EP",
+    "Qwen/Qwen3-8B-Base": "TP2",
+    "Qwen/Qwen2.5-VL-7B-Instruct": "TP2",
+    "Qwen/Qwen3-30B-A3B": "TP4 + EP",
 }
 
 # Execution backend configuration
